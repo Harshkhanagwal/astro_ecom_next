@@ -1,4 +1,9 @@
-.productGallery{
+.productGallery {
     display: flex;
     gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }

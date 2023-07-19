@@ -1,4 +1,5 @@
 import Card from "@/Components/Card/Card"
+import '@/style/productGallery.css'
 
 const page = () => {
   return (
