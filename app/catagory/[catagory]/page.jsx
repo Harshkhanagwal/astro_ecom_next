@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
       <section id="product-cards" className="main productGallery">
-        <div className="w100 container">
+        <div className="container productGallery-inner">
           <Card />
           <Card />
           <Card />
