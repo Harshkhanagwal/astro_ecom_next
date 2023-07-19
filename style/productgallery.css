@@ -1,0 +1,4 @@
+.productGallery{
+    display: flex;
+    gap: 20px;
+}

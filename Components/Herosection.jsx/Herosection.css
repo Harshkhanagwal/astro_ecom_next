@@ -1,0 +1,10 @@
+.herobx{
+    margin: 20px 0;
+    width: 100%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    height: 350px;
+}
+

@@ -1,0 +1,26 @@
+.cardBtn {
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #FF850B;
+    transition: ease 0.2s;
+    cursor: pointer;
+    background: #FF850B;
+}
+
+.cardBtn:hover{
+    color: #FF850B;
+    background-color: #FFF;
+}

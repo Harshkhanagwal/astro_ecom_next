@@ -1,0 +1,134 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    height: 70px;
+
+}
+
+.innerHeader {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.searchBx {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 10px;
+    width: 400px;
+    border-radius: 16px;
+}
+
+.searchInput {
+    background-color: transparent;
+    border: none;
+    width: 98%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchbt {
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    width: 90px;
+    color: #fff;
+    cursor: pointer;
+    transition: ease 0.2s;
+
+}
+
+.searchbt:hover {
+    opacity: 0.7;
+}
+
+.headerIcons{
+    display: flex;
+    gap: 20px;
+}
+
+.headerbt {
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.button-notification{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 24px;
+    width: 24px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #0F263A;
+    transition: ease 0.2s;
+}
+
+.headerbt:hover .button-notification{
+    scale: 1.1;   
+}
+
+.mobilesearchbar{
+    display: none;
+}
+.serachbar-mobile, .serachbar-mobile form{
+ height: 40px;
+ width: 100%;   
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ border-bottom: 1px solid #a3a3a3;
+}
+
+.serachbar-mobile input{
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+
+}
+
+.serachbar-mobile input:focus{
+    border-bottom: 1px #0F263A solid;
+}
+
+.mobile-searchbt{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #0F263A;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width : 718px) {
+    .searchBar{
+        display: none;
+    }
+
+    .mobilesearchbar{
+        display: block;
+    }
+}
