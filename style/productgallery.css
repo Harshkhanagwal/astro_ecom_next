@@ -4,9 +4,10 @@
 }
 
 
-.productGallery-inner{
+.productGallery-inner {
+    padding: 40px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
