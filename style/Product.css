@@ -1,6 +1,6 @@
 .Product {
     display: flex;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .product-images {
@@ -52,7 +52,7 @@
     padding: 0 20px;
 }
 
-.product-title h3 {
+.product-title h1 {
     color: #000;
     font-size: 34px;
     font-weight: 400;
@@ -65,7 +65,7 @@
     height: fit-content;
 }
 
-.product-description h3 {
+.product-description h2 {
     color: #000;
     font-size: 20px;
     font-weight: 400;
@@ -90,7 +90,7 @@
     width: 318px;
 }
 
-.conduct h5 {
+.conduct h3 {
     color: #000;
     font-size: 20px;
     font-weight: 400;
@@ -126,6 +126,25 @@
     line-height: 24px;
 }
 
+.questions-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.questionbox {
+    width: 100%;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 12px;
+}
+
+.questionbox h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
 @media screen and (max-width: 1250px) {
     .product-description {
         width: fit-content;
@@ -153,8 +172,23 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .Product {
+        padding: 30px 0;
+    }
+
+    .product-order {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-order button {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 360px) {
-    .conductor{
+    .conductor {
         width: 100%;
     }
 }

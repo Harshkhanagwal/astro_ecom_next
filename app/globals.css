@@ -40,3 +40,16 @@
 .width100{
     width: 100%;
 }
+
+.colorbar{
+    background-color: #FF850B;
+    width: 180px;
+    height: 2px;
+    margin: 8px 0;
+    border-radius: 50px;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}
