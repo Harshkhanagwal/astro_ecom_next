@@ -1,6 +1,7 @@
 import './globals.css'
 import '@/style/productgallery.css'
 import Header from '@/Components/header/Header'
+import Footer from '@/Components/Footer/Footer'
 
 
 export const metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
           {children}
 
         </main>
+        <Footer />
       </body>
     </html>
   )
