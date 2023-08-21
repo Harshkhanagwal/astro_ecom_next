@@ -1,4 +1,4 @@
-import './globals.css'
+import './global.css'
 import '@/style/productgallery.css'
 import Header from '@/Components/header/Header'
 import Footer from '@/Components/Footer/Footer'
